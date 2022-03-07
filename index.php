@@ -6,17 +6,17 @@
     <?php 
 
 $aproducts = ["Apple", "Banana", "Cucumber", "Watermelon", "Ice-cream", "Orange" ,"Eggplant", "Egg"];
-foreach ($aproducts as $model) {
-    if ($model[0] == "A") {
-        echo $model . " ";
-    }elseif ($model[0] == "E") {
-  echo $model . " ";
-}elseif ($model[0] == "O") {
-  echo $model . " ";
-} elseif ($model[0] == "I") {
-  echo $model . " ";
-} elseif ($model[0] == "U") {
-  echo $model . " ";
+foreach ($aproducts as $frout) {
+    if ($frout[0] == "A") {
+        echo $frout . " ";
+    }elseif ($frout[0] == "E") {
+  echo $frout . " ";
+}elseif ($frout[0] == "O") {
+  echo $frout . " ";
+} elseif ($frout[0] == "I") {
+  echo $frout . " ";
+} elseif ($frout[0] == "U") {
+  echo $frout . " ";
 }    
 }
 
