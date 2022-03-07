@@ -5,8 +5,8 @@
   <body>
     <?php 
 
-$aCars = ["Apple", "Banana", "Cucumber", "Watermelon", "Ice-cream", "Orange" ,"Eggplant", "Egg"];
-foreach ($aCars as $model) {
+$aproducts = ["Apple", "Banana", "Cucumber", "Watermelon", "Ice-cream", "Orange" ,"Eggplant", "Egg"];
+foreach ($aproducts as $model) {
     if ($model[0] == "A") {
         echo $model . " ";
     }elseif ($model[0] == "E") {
